@@ -17,7 +17,7 @@ from django.contrib import admin
 from django.urls import include, path
 
 urlpatterns = [
-    path('getMenu/', include('iiko.urls')),
+    path('iiko/', include('iiko.urls')),
     path('', include('start.urls')),
     path('admin/', admin.site.urls),
 ]
